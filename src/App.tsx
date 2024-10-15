@@ -5,7 +5,7 @@ import DetailPhoto from './components/DetailPhoto';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/AWD-PhotoGallery">
       <Routes>
         <Route path="/" element={<Navigate to="/photos" />} />
         <Route path="/photos" element={<Photos />} />
